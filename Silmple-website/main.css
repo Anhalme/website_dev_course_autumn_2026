@@ -2,12 +2,14 @@
   --green: #00FF00;
   --white: #FFFFFF;
   --black: #000000;
+  --blue: #1b4f9c;
+  --lightBlue: #dfeafc;
 }
 
 body {
   background: var(--bg);
   color: var(--fontColor);
-  font-family: helvetica;
+  font-family: Arial, sans-serif;
 }
 
 li {
@@ -26,4 +28,9 @@ li {
 .dark-theme {
   --bg: var(--black);
   --fontColor: var(--green);
+}
+
+.medium-theme {
+  --bg: var(--lightBlue);
+  --fontColor: var(--blue);
 }
