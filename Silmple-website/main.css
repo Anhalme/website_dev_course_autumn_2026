@@ -4,6 +4,8 @@
   --black: #000000;
   --blue: #1b4f9c;
   --lightBlue: #dfeafc;
+  --bg: var(--green);
+  --fontColor: var(--black);
 }
 
 body {
