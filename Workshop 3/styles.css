@@ -1,0 +1,143 @@
+h2 {
+      color: rgb(133, 12, 32);
+    }
+
+p {
+      color: blue;
+    }
+    
+body {
+      background-color: rgb(197, 187, 205);
+    }
+    
+h1 {
+      font-size: 3em;
+    }
+
+.content-box {
+  padding: 12px;
+  margin: 20px;
+  background-color: #a9daf2;
+  border: 1px solid #000000;
+}
+
+table {
+      width: 30%;
+      border-color: #000000;
+    }
+    
+    th, td {
+      border: 1px solid #4e054e;
+      padding: 2px;
+      text-align: center;
+    }
+    
+    th {
+      background-color: #8ffd98;
+    }
+
+    tr {
+        background-color: #ddd;
+        text-align: center;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+    
+    label {
+      font-weight: 900;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 2px;
+      border: 3px solid #0b0000;
+      border-radius: 10px;
+    }
+    
+    input[type="submit"] {
+      background-color: #3e0864;
+      color: white;
+      padding: 10px;
+      border: 3px solid#7b03f4;
+      border-radius: 10px;
+      cursor: not-allowed;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #f97ff5;
+    }
+
+    .transition-button {
+        background-color: lightblue;
+        padding: 30px 40px;
+        border: 3px solid#7b03f4;
+        cursor: default;
+        transition: background-color 0.7s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(128, 240, 133);
+      }
+
+      .animation-box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(132, 14, 215);
+        position: relative;
+        animation: move 4s alternate 20;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 1200px;
+        }
+      }
+
+      .pseudo-list li:nth-child(odd) {
+        background-color: rgb(199, 243, 188);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(232, 176, 241);
+      }
+
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 2s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+
+      .quote {
+        position: relative;
+        padding-bottom: 30px;
+        font-family: garamond;
+        font-size: 30px;
+      }
+      
+      .quote::after {
+        content: '"Be yourself; everyone else is already taken." - Oscar Wilde';
+        font-size: 25px;
+        position: relative;
+        font-family: sans-serif;
+        left: 0;
+        bottom: 10;
+        color: rgb(245, 230, 230);
+      }
+
+      .container {
+  display: flex;
+}
+.box {
+  padding: 30px;
+  background: #ec9a9a;
+  margin: 10px;
+}
